@@ -15,21 +15,57 @@
 			<div class="navigation">
 				<div class="round"><a href="#">K.D</a></div>
 				<ul>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">关于我</a></li>
-					<li><a href="#">日志</a></li>
-					<li><a href="#">动态</a></li>
-					<li><a href="#">项目</a></li>
+					<li><a href="#home">首页</a></li>
+					<li><a href="#aboutMe">关于我</a></li>
+					<li><a href="#log">日志</a></li>
+					<li><a href="#dynamic">总结</a></li>
+					<li><a href="#project">项目</a></li>
 				</ul>	
 			</div>	
 			<div class="imges">
 				<img src="img/banner.jpg"
 			</div>
+			<div class="ican" id="home">
+				<a href="#" class="ican_1">首页</a></div>
 			<div class="home"></div>
+			
+		<div class="ican" id="aboutMe">
+			<a href="#" class="ican_1">关于我</a></div>
 			<div class="aboutMe"></div>
+			
+		<div class="ican" id="log">
+			<a href="#" class="ican_1">日志</a></div>
 			<div class="log"></div>
-			<div class="dynamic"></div>
-			<div class="project"></div>
+		<div class="ican" id="dynamic">
+			<a href="#" class="ican_1">总结</a></div>
+			<div class="dynamic">
+				<div class="dynamic_l clearfix">
+					<img src="img/01.jpg"
+				</div>
+				<div class="dynamic_r">
+					1.git 常用命令：
+					git verson查看git版本信息
+					git help：git帮助命令
+					2.管理项目常用命令：
+					git init：初始化仓库
+					git add your filesname yourfilestype(比如：index.html...and so on...)提交单个文件
+					git add . :将所有文件和文件夹提交到文件的队列中
+					git commit：提交到版本库中
+					3.备份本地项目到云端：
+					1)注册登入云端git服务器
+					2)在云端建一个备份项目
+					3)克隆云端项目到本地
+					4)复制本地项目到git 项目中
+					5)cd项目目录
+					6)git add . 提交所有文件
+					7)gitcommit -m “描述”
+					8)git push origin master:提交到云端版本库中
+				</div>	
+			</div>
+			
+		<div class="ican" id="project" >
+			<a href="#" class="ican_1">项目</a></div>
+			<div class="project "></div>
 		</div>	
 		</div>
 	</body>
